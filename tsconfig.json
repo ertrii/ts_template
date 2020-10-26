@@ -5,11 +5,12 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "outDir": "lib",
-    "sourceMap": true,
+    "sourceMap": false,
     "strict": true,
-    "target": "es2017",
+    "target": "ES5",
     "moduleResolution": "node",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "isolatedModules": true
   },
   "compileOnSave": true,
   "include": [
@@ -20,6 +21,7 @@
     "node_modules",
     "**/*.spec.ts",
     "lib",
-    "dist"
+    "dist",
+    "types"
   ]
 }

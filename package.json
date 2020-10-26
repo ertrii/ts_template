@@ -3,11 +3,14 @@
   "version": "1.0.0-alpha.1",
   "description": "",
   "main": "lib/index.js",
+  "types": "./types/index.d.ts",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
     "tsc": "tsc",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "types": "tsc --d --declarationDir ./types",
+    "publish:lib": "npm run lint && npm run test && npm run types && npm run tsc && npm publish"
   },
   "keywords": [
     "typescript",

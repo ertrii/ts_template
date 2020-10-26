@@ -2,3 +2,5 @@ node_modules
 dist
 lib
 build
+babel.config.js
+types

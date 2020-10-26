@@ -1,5 +1,5 @@
 function data(): string {
-  return 'Hello word'
+    return 'Hello word'
 }
 
 export default data
