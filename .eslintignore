@@ -4,3 +4,4 @@ lib
 build
 babel.config.js
 types
+jest.config.js
