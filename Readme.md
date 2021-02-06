@@ -17,7 +17,7 @@ npm install
 |--------|---------------|
 | `test`   | run test |
 | `test:watch`   | run test watch |
-| `tsc`   | compile typescript |
+| `dev`   | node typescript |
 | `lint`  | linter |
-| `types`  | typing |
+| `build`  | build |
 | `publish:lib`  | running all script then publish in npm. Remember to login first and assign a name and version in the package.|

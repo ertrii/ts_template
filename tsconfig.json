@@ -3,7 +3,8 @@
     "experimentalDecorators": true,
     "module": "commonjs",
     "noImplicitReturns": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "outDir": "lib",
     "sourceMap": false,
     "strict": true,
@@ -15,8 +16,7 @@
   },
   "compileOnSave": true,
   "include": [
-    "src",
-    "__test__/**/*"
+    "src"
   ],
   "exclude": [
     "node_modules",
